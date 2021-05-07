@@ -15,11 +15,12 @@
     flex-grow: 1;
     display: flex;
     flex-wrap: wrap;
-    padding: 40px 20px; 
+    padding-top: 40px; 
+    justify-content: center;
 }
 
 .flex-photo{
-    width: 200px;
+    width: 190px;
     padding: 3px;
 
 }
@@ -60,6 +61,10 @@ ul li:only-child{
     background-color: #555;
     color: rgb(116, 1, 1);
     font-weight: bolder;
+}
+
+i, li{
+    display: inline-block;
 }
 
 
