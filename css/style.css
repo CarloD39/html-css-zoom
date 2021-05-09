@@ -7,16 +7,43 @@
 .container{
     display: flex;
     flex-direction: column;
-    height: 100vh;    
+    height: 100vh;   
 }
 /* ------------------------------------------- */
+.Options{
+    color: white;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+.Options .icon{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: white;
+    background-color: rgba(100, 100, 100, 0.6);
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.icon.faces::before{
+    content: "\f00a";
+}
+
+.icon.zoom::before{
+    content: "\f31e";
+}
+
 .items-box{
+    position: relative;
     background-color: black;
     flex-grow: 1;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 40px; 
+    padding-top: 60px;
     justify-content: center;
+    /* align-items: center; */
 }
 
 .flex-photo{
@@ -34,7 +61,7 @@
     left: 0;
     font-size: 12px;
     color: white;
-    background-color: rgb(0, 0, 0, 0.5);
+    background-color: rgb(0, 0, 0, 0.6);
     padding: 4px;
 }
 
@@ -91,11 +118,11 @@ li span::before{
     padding-bottom: 5px;
 }
 
-li #mute::before{
+li .mute::before{
     content: "\f130";
 }
 
-li #video::before{
+li .video::before{
     content: "\f03d";
 }
 
