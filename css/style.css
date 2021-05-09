@@ -25,7 +25,7 @@
     height: 90px;
     background-image: url(../img/maxresdefault.jpg);
     background-size: cover;
-    margin: 3px;
+    margin: 2px;
 }
 
 .pinco-pallo{
@@ -76,7 +76,7 @@ ul:last-child{
 }
 
 ul #end-meeting:only-child{
-    padding: 15px 10px;
+    line-height: 50px;
     background-color: #555;
     color: rgb(116, 1, 1);
     font-weight: bolder;
